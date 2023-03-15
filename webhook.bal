@@ -15,7 +15,7 @@ service github:IssuesService on webhookListener {
       //Not Implemsadaented
     }
     remote function onReopened(github:IssuesEvent payload ) returns error? {
-      //Not Implemented
+      //Not Ifffmplemented
     }
     remote function onAssigned(github:IssuesEvent payload ) returns error? {
       //Not Implemented

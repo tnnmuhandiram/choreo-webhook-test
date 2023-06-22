@@ -2,7 +2,7 @@ import ballerinax/trigger.github;
 import ballerina/http;
 import ballerina/log;
 
-configurable github:ListenerConfig config = ?;
+configurable github:ListenerConfig config = "test";
 
 listener http:Listener httpListener = new(8090);
 listener github:Listener webhookListener =  new(config,httpListener);
